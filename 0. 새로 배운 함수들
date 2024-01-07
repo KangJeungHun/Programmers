@@ -2,3 +2,4 @@
 .charAt() -> 위와 동일
 .isUpperCase(), .isLowerCase() -> 대문자인가?(후자는 소문자인가?) 확인
 .toUpperCase(), .toLowerCase() -> 대문자로(후자는 소문자로) 변환
+str.substring(a,b) -> string의 인덱스 a부터 b 전까지 잘라서 넣기

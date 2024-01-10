@@ -7,9 +7,9 @@ class Solution {
         
         for(int i : num_list){
             if(i%2 == 0){
-                even += Integer.toString(i);
+                even += String.valueOf(i);
             }else{
-                odd += Integer.toString(i);
+                odd += String.valueOf(i);
             }
         }
         answer = Integer.parseInt(odd) + Integer.parseInt(even);

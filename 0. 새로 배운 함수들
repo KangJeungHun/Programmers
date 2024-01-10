@@ -1,5 +1,5 @@
 .toCharArray() -> 문자열을 한글자씩 쪼개서 Char 타입 배열에 넣어주는 메소드
-.charAt() -> 위와 동일
+.charAt(a) -> 문자열의 a번째 index에 해당하는 문자를 확인
 .isUpperCase(), .isLowerCase() -> 대문자인가?(후자는 소문자인가?) 확인
 .toUpperCase(), .toLowerCase() -> 대문자로(후자는 소문자로) 변환
 str.substring(a,b) -> string의 인덱스 a부터 b-1까지 잘라서 넣기

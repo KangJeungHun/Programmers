@@ -4,5 +4,5 @@
 .toUpperCase(), .toLowerCase() -> 대문자로(후자는 소문자로) 변환
 str.substring(a,b) -> string의 인덱스 a부터 b-1까지 잘라서 넣기
 Integer.parseInt(str) -> 괄호 안의 string을 int로 형변환
-String.valueOf(int) -> 괄호 안의 int를 string으로 형변환
+String.valueOf(int) -> 괄호 안의 int를 string으로 형변환 <- Integer.toString(int)
 String 비교 -> == 는 String의 주소가 같은지 비교 , string1.equals(string2); 는 두 String의 "값" 이 같은지 비교
